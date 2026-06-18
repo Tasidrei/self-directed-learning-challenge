@@ -1,0 +1,36 @@
+.gallery-card {
+  background-color: khaki;
+  border-radius: 20px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+  padding: 25px;
+  margin: 20px auto;
+  max-width: 900px;
+}
+
+.gallery-row img {
+  width: 180px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  display: block;
+  transition: transform 0.3s ease; 
+
+}
+
+.gallery-row img:hover {
+  transform: scale(1.05);
+}
+
+.gallery-card {
+  max-height: 100%;
+  overflow: hidden;
+}
+
+.gallery-row {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 10px 0 25px 0;
+  flex-wrap: wrap;
+}

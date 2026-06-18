@@ -129,7 +129,6 @@ footer p {
 }
 
 
-
 .logo a {
   text-decoration: none;
   color: white; 
@@ -142,7 +141,7 @@ footer p {
   display: flex;
   flex-direction: column;   
   gap: 25px;
-  padding: 40px 20px;
+  padding: 40px auto;
   background-color: #B0C4DE;
   align-items: center;
 }

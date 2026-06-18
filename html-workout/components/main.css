@@ -1,0 +1,27 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 40px 0;
+  background-color: #B0C4DE; 
+}
+                                   
+
+
+main section {
+    background-color: #ffffff;
+
+    border-radius: 12px;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;            
+}
+
+
+main section h2 {
+    margin-top: 0;                    
+    margin-bottom: 0.5rem;
+    color: #00d2ff;                  
+}

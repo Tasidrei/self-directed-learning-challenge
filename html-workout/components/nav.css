@@ -1,0 +1,45 @@
+.music-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #0f172a; /* deep navy */
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.music-nav .logo {
+  font-size: 1.4rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #ff4a11; 
+}
+
+.nav-links.active {
+    display: flex;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  

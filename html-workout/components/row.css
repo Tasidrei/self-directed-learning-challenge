@@ -1,0 +1,53 @@
+.top-row .card {
+  flex: 1;               
+  min-width: 280px;       
+  max-width: 350px;       
+}
+
+
+.top-row .card ul {
+  display: inline-block;
+  text-align: left;               
+  margin: 20px auto; 
+  width: auto;             
+}
+
+.top-row .card ul li {
+  text-align: left;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 8px;
+  white-space: normal;     
+}
+
+.top-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;               
+  max-width: 1400px;     
+  width: 100%;
+}
+
+
+.bottom-row {
+  display: flex;
+  flex-direction: row;      
+  flex-wrap: wrap;          
+  justify-content: center;
+  gap: 25px;
+  width: 100%;
+  max-width: 1400px;        
+}
+
+
+
+.top-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;    
+  gap: 20px;               
+  max-width: 1400px;       
+  width: 100%;
+}
